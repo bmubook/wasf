@@ -1,54 +1,54 @@
-# Wasf
+# مشروع وصف (Wasf)
 
-Wasf is an AI-powered application built with React, Vite, and Supabase. It integrates advanced Artificial Intelligence services to provide features like Text-to-Speech (TTS), Speech-to-Text (STT), and content generation.
+"وصف" هو تطبيق متطور يعتمد على الذكاء الاصطناعي، تم بناؤه باستخدام React و Vite و Supabase. يدمج المشروع خدمات الذكاء الاصطناعي المتقدمة لتوفير ميزات مثل تحويل النص إلى صوت (TTS)، وتحويل الصوت إلى نص (STT)، وتوليد المحتوى بذكاء.
 
-## Features
-- **Text-to-Speech (TTS):** High-quality voice generation (supporting multiple voices including Azure Speech Services and ElevenLabs).
-- **Speech-to-Text (STT):** Voice recording and accurate transcription.
-- **AI Content Generation:** Integration with Google Gemini AI for smart text generation and processing.
-- **Cloud Database:** Powered by Supabase for secure data storage, authentication, and Row Level Security (RLS).
-- **Responsive UI:** Modern, user-friendly interface built with React.
+## الميزات الرئيسية
+- **تحويل النص إلى صوت (TTS):** توليد أصوات عالية الجودة (يدعم أصوات متعددة بدمج خدمات Azure Speech و ElevenLabs).
+- **تحويل الصوت إلى نص (STT):** تسجيل الصوت وتحويله بدقة إلى نصوص مكتوبة.
+- **توليد المحتوى بالذكاء الاصطناعي:** تكامل مع Google Gemini AI لمعالجة النصوص وتوليدها بذكاء.
+- **قاعدة بيانات سحابية آمنة:** يعتمد على Supabase لتخزين البيانات، إدارة المصادقة، وتطبيق سياسات الحماية على مستوى الصفوف (RLS).
+- **واجهة مستخدم متجاوبة:** واجهة حديثة وسهلة الاستخدام مبنية بالكامل باستخدام React.
 
-## Tech Stack
-- Frontend: React + Vite + Vanilla CSS
-- Backend/BaaS: Supabase (PostgreSQL, Auth, Edge Functions)
-- AI Services: Google Gemini AI, Azure Speech Services
-- Deployment: Vercel / Cloudflare / Netlify (Recommended)
+## التقنيات المستخدمة
+- **الواجهة الأمامية:** React + Vite + Vanilla CSS
+- **الخوادم وقواعد البيانات:** Supabase (PostgreSQL, Auth, Edge Functions)
+- **خدمات الذكاء الاصطناعي:** Google Gemini AI, Azure Speech Services
+- **الاستضافة:** Vercel / Cloudflare / Netlify (يُنصح بها)
 
-## Prerequisites
-Before running the project locally, ensure you have the following installed:
-- Node.js (v18 or higher)
-- npm or yarn
+## متطلبات التشغيل
+قبل تشغيل المشروع محلياً، تأكد من تثبيت البرامج التالية:
+- Node.js (الإصدار 18 أو أحدث)
+- npm أو yarn
 
-## Getting Started
+## خطوات التشغيل
 
-1. Clone the repository:
+1. انسخ المستودع إلى جهازك:
    ```bash
    git clone https://github.com/bmubook/wasf.git
    cd wasf
    ```
 
-2. Install dependencies:
+2. قم بتثبيت الحزم والاعتماديات:
    ```bash
    npm install
    ```
 
-3. Setup Environment Variables:
-   Copy `.env.example` to `.env` and fill in your API keys (Supabase, Gemini, Azure, etc.).
+3. إعداد متغيرات البيئة:
+   قم بنسخ ملف `.env.example` إلى ملف جديد باسم `.env` وأضف مفاتيح الـ API الخاصة بك (مثل Supabase, Gemini, Azure).
    ```bash
    cp .env.example .env
    ```
 
-4. Start the development server:
+4. تشغيل خادم التطوير المحلي:
    ```bash
    npm run dev
    ```
 
-## Scripts
-- `npm run dev`: Starts the local development server.
-- `npm run build`: Builds the app for production.
-- `npm run preview`: Locally preview the production build.
-- `npm run lint`: Runs ESLint to find and fix problems.
+## الأوامر المتاحة (Scripts)
+- `npm run dev`: تشغيل المشروع في بيئة التطوير.
+- `npm run build`: بناء المشروع للإنتاج.
+- `npm run preview`: معاينة نسخة الإنتاج محلياً.
+- `npm run lint`: فحص وتدقيق الكود البرمجي (ESLint).
 
-## License
+## الترخيص
 MIT License
