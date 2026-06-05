@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800&family=Outfit:wght@300;400;500;600;700;800&display=swap');
+
+@theme {
+  --font-sans: 'Outfit', 'Cairo', system-ui, -apple-system, sans-serif;
+  --color-brand-primary: #aa3bff;
+  --color-brand-secondary: #c084fc;
+}
+
+html, body {
+  font-family: 'Cairo', 'Outfit', system-ui, -apple-system, sans-serif;
+  direction: rtl;
+  text-align: right;
+  background-color: #0b0c10;
+  color: #f3f4f6;
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+}
+
+/* تخصيص شريط التمرير لجعل التصميم مميزاً وفخماً */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #111318;
+}
+::-webkit-scrollbar-thumb {
+  background: #2e3039;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #aa3bff;
+}
